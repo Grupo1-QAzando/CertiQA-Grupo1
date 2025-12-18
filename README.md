@@ -11,11 +11,11 @@ O objetivo principal é aplicar **boas práticas de Quality Assurance (QA)** e *
 | Integrante                         | Perfil GitHub                                   | LinkedIn             |
 | ---------------------------------- | --------------------                            | --------------------
 | **Vitor Evangelista Fantin**       | [Clique Aqui](https://github.com/vitorfantin)   | [Clique Aqui](https://www.linkedin.com/in/vitorfantin/)
-| **AXXXXX**   | 
-| **MiXXXXX**   | [Clique Aqui](https://github.com/Miccccd0)   | [Clique Aqui](https://www.linkedin.com/in/michccc)
-| **GXXXos**         |
-| **ViXXXXe** | [Clique Aqui](https://github.com/Viccccctes)   | [Clique Aqui](https://www.linkedin.com/in/vcccc9311)
-| **AmXXXXos**                   | [Clique Aqui](https://github.com/cccc)   | [Clique Aqui](https://www.linkedin.com/in/ccc4)
+| **SEU-NOME**   | [Clique Aqui](https://github.com/vitorfantin)   | [Clique Aqui](https://www.linkedin.com/in/vitorfantin/)
+| **SEU-NOME**   | [Clique Aqui](https://github.com/)   | [Clique Aqui](https://www.linkedin.com/in/)
+| **SEU-NOME**   | [Clique Aqui](https://github.com/vitorfantin)   | [Clique Aqui](https://www.linkedin.com/in/vitorfantin/)
+| **SEU-NOME**   | [Clique Aqui](https://github.com/)   | [Clique Aqui](https://www.linkedin.com/in/)
+| **SEU-NOME**   | [Clique Aqui](https://github.com/)   | [Clique Aqui](https://www.linkedin.com/in/)
 
 ## 🎯 Sobre o Site Testado
 
@@ -49,7 +49,7 @@ Este projeto utiliza o site como **ambiente de prática**, com foco em:
 ---
 
 ## 📂 Estrutura do Projeto (resumida)
-
+```text
 CertiQA-Grupo1
 ├─ .github/workflows
 ├─ cypress
@@ -57,13 +57,12 @@ CertiQA-Grupo1
 │  ├─ fixtures
 │  ├─ pages
 │  └─ support
-├─ node_modules
 ├─ .gitignore
 ├─ cypress.config.js
 ├─ package-lock.json
 ├─ package.json
 └─ README.md
-
+```
 📥 Clonando o repositório
 
 Abra o terminal dentro da pasta deseja inserir a pasta que será clonada e execute:
