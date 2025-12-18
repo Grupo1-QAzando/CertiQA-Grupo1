@@ -4,11 +4,12 @@ on:
   pull_request:
     branches:
       - main
+      - staging
     paths-ignore:
           - 'README.md' 
   push:
     branches:
-      - staging
+      - test/**
     paths-ignore:
           - 'README.md' 
 

@@ -115,26 +115,43 @@ Regras aplicadas:
 👉 Qualquer alteração na `main` representa uma versão estável das automações.
 
 ---
+### 🧪 Branch `staging` (Integração e Consolidação)
 
-### 🧪 Branch `staging` (Integração e Testes)
+A branch **`staging`** é utilizada como **ambiente de consolidação das automações**, recebendo apenas código previamente validado pelas pipelines de CI.
 
-A branch **`staging`** é utilizada como **ambiente de desenvolvimento e integração contínua** das automações.
+Ela **não é utilizada para desenvolvimento direto**.
 
 Características:
 
-- Desenvolvimento de novas automações
-- Ajustes, refatorações e melhorias
-- Validação inicial via pipeline CI
-
-Comportamento:
-
-- **Todo commit** realizado na `staging` dispara automaticamente a **pipeline CI no GitHub Actions**
-- Testes são executados para validar:
-  - Estabilidade do código
-  - Quebra de testes existentes
-  - Impacto das novas implementações
-
-👉 A `staging` funciona como **filtro de qualidade**, garantindo que apenas código validado chegue à `main`.
+- Consolidação de automações já testadas
+- Validação integrada do conjunto de testes
+- Base para promoção do código à branch `main`
 
 ---
 
+### 🧩 Branches de Teste (`test/*`)
+
+Cada nova automação **deve obrigatoriamente** ser desenvolvida em uma branch no seguinte padrão:
+
+```text
+test/NOME-DA-FUNCIONALIDADE-TESTE
+
+```exemplo
+test/login-fluxo-basico
+test/dashboard-bloqueio-fases
+
+Comportamento:
+	•	Todo push ou commit em uma branch test/* dispara automaticamente a pipeline CI no GitHub Actions
+	•	Os testes são executados para validar:
+	•	Funcionamento da nova automação
+	•	Não quebra de testes existentes
+	•	Qualidade e estabilidade do código
+
+Fluxo esperado:
+	1.	Criar a branch test/NOME-DA-FUNCIONALIDADE-TESTE
+	2.	Desenvolver e commitar as automações
+	3.	Pipeline CI é executada automaticamente
+	4.	Com CI verde, solicitar Pull Request para a branch staging
+	5.	Código consolidado na staging após revisão
+
+👉 Esse fluxo garante que somente código validado chegue à staging, aumentando a confiabilidade do projeto.
