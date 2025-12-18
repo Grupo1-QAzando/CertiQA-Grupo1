@@ -132,14 +132,15 @@ Características:
 
 Cada nova automação **deve obrigatoriamente** ser desenvolvida em uma branch no seguinte padrão:
 
-```text
-test/NOME-DA-FUNCIONALIDADE-TESTE
-```
 
-```exemplo
+#### test/NOME-DA-FUNCIONALIDADE-TESTE
+
+```text
+Exemplo
 test/login-fluxo-basico
 test/dashboard-bloqueio-fases
-```
+
+
 Comportamento:
 	•	Todo push ou commit em uma branch test/* dispara automaticamente a pipeline CI no GitHub Actions
 	•	Os testes são executados para validar:
