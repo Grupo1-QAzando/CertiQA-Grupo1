@@ -4,9 +4,13 @@ on:
   pull_request:
     branches:
       - main
+    paths-ignore:
+          - 'README.md' 
   push:
     branches:
       - staging
+    paths-ignore:
+          - 'README.md' 
 
 jobs:
   cypress-run:
