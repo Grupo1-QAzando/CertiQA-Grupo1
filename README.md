@@ -13,6 +13,7 @@ O objetivo principal é aplicar **boas práticas de Quality Assurance (QA)**, **
 | Integrante                     | GitHub                                  | LinkedIn |
 |--------------------------------|-----------------------------------------|----------|
 | **Vitor Evangelista Fantin**    | https://github.com/vitorfantin           | https://www.linkedin.com/in/vitorfantin/ |
+| **Bruno Zanardi**               | https://github.com/Bruno-Zanardi                     | https://www.linkedin.com/in/bruno-zanardi |
 | **SEU-NOME**                   | https://github.com/                     | https://www.linkedin.com/in/ |
 
 ---
