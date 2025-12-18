@@ -11,11 +11,11 @@ O objetivo principal é aplicar **boas práticas de Quality Assurance (QA)** e *
 | Integrante                         | Perfil GitHub                                   | LinkedIn             |
 | ---------------------------------- | --------------------                            | --------------------
 | **Vitor Evangelista Fantin**       | [Clique Aqui](https://github.com/vitorfantin)   | [Clique Aqui](https://www.linkedin.com/in/vitorfantin/)
-| **AXXXXX**   | 
-| **MiXXXXX**   | [Clique Aqui](https://github.com/Miccccd0)   | [Clique Aqui](https://www.linkedin.com/in/michccc)
-| **GXXXos**         |
-| **ViXXXXe** | [Clique Aqui](https://github.com/Viccccctes)   | [Clique Aqui](https://www.linkedin.com/in/vcccc9311)
-| **AmXXXXos**                   | [Clique Aqui](https://github.com/cccc)   | [Clique Aqui](https://www.linkedin.com/in/ccc4)
+| **SEU-NOME**   | [Clique Aqui](https://github.com/vitorfantin)   | [Clique Aqui](https://www.linkedin.com/in/vitorfantin/)
+| **SEU-NOME**   | [Clique Aqui](https://github.com/)   | [Clique Aqui](https://www.linkedin.com/in/)
+| **SEU-NOME**   | [Clique Aqui](https://github.com/vitorfantin)   | [Clique Aqui](https://www.linkedin.com/in/vitorfantin/)
+| **SEU-NOME**   | [Clique Aqui](https://github.com/)   | [Clique Aqui](https://www.linkedin.com/in/)
+| **SEU-NOME**   | [Clique Aqui](https://github.com/)   | [Clique Aqui](https://www.linkedin.com/in/)
 
 ## 🎯 Sobre o Site Testado
 
