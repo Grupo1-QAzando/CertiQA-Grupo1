@@ -1,0 +1,46 @@
+[
+    {
+        "pergunta": "Qual dos seguintes NÃO é um princípio de teste?",
+        "resposta": "Testes sempre garantem software sem defeitos"
+    },
+    {
+        "pergunta": "O que é o \"Paradoxo do Pesticida\" em testes?",
+        "resposta": "Quando os mesmos testes repetidos param de encontrar novos defeitos"
+    },
+    {
+        "pergunta": "Qual é o principal objetivo do teste de software?",
+        "resposta": "Verificar se o software atende aos requisitos e identificar defeitos"
+    },
+    {
+        "pergunta": "Qual princípio de teste afirma que executar os mesmos testes repetidamente se torna menos eficaz?",
+        "resposta": "Paradoxo do pesticida"
+    },
+    {
+        "pergunta": "O que significa \"agrupamento de defeitos\" em teste de software?",
+        "resposta": "Pequeno número de módulos contém a maioria dos defeitos"
+    },
+    {
+        "pergunta": "O que é um teste de caixa preta?",
+        "resposta": "Teste baseado nas especificações sem conhecimento do código interno"
+    },
+    {
+        "pergunta": "Por que \"teste antecipado economiza tempo e dinheiro\"?",
+        "resposta": "Encontrar defeitos quando são mais baratos de corrigir"
+    },
+    {
+        "pergunta": "O que é a \"ausência de erros é uma falácia\"?",
+        "resposta": "Sistema pode estar livre de defeitos mas ser inutilizável"
+    },
+    {
+        "pergunta": "Qual é a diferença entre erro, defeito e falha?",
+        "resposta": "Erro → Defeito → Falha"
+    },
+    {
+        "pergunta": "O que caracteriza um bom caso de teste?",
+        "resposta": "Deve ter alta probabilidade de encontrar um erro"
+    },
+    {
+        "pergunta": "Qual atividade NÃO faz parte do processo fundamental de teste?",
+        "resposta": "Codificação"
+    }
+]
