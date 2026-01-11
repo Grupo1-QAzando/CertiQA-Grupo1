@@ -25,14 +25,14 @@ describe('Feature/Ust-Ctfl-Foundation Level/Dashboard de Estudos CTFL', () => {
     });
     it('KAN-59 Descrição página "Conteúdo da Fase" - Fase 1', () => {
         cy.btnLogin();
-        cy.loginConta('grupo1qazando3@teste.com', 'grupo1qazando');
+        cy.loginConta('grupo1qazando4@teste.com', 'grupo1qazando');
         dashboardCtfl.funcAcessarPaginaCtfl();
         dashboardCtfl.funcDescricaoPaginaConteudoFaseUm();
 
     });
     it('KAN-61 Funcionalidade botão "Sair Quiz" - Fase 1', () => {
         cy.btnLogin();
-        cy.loginConta('grupo1qazando3@teste.com', 'grupo1qazando');
+        cy.loginConta('grupo1qazando4@teste.com', 'grupo1qazando');
         dashboardCtfl.funcAcessarPaginaCtfl();
         dashboardCtfl.funcIniciarQuizFaseUm();
         dashboardCtfl.funcBtnSairQuiz();
@@ -41,7 +41,7 @@ describe('Feature/Ust-Ctfl-Foundation Level/Dashboard de Estudos CTFL', () => {
 
     it('KAN-62 Funcionalidade botão "Anterior" durante o simulado - Fase 1', () => {
         cy.btnLogin();
-        cy.loginConta('grupo1qazando3@teste.com', 'grupo1qazando');
+        cy.loginConta('grupo1qazando4@teste.com', 'grupo1qazando');
         dashboardCtfl.funcAcessarPaginaCtfl();
         dashboardCtfl.funcIniciarQuizFaseUm();
         cy.wait(15000);
