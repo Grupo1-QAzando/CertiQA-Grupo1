@@ -19,3 +19,7 @@ Cypress.Commands.add('loginConta', (email,senha) => {
     cy.get('.inline-flex').should('have.text', 'Entrar').click();
     cy.get('.grid > .font-semibold').should('have.text', 'Login bem-sucedido')
 });
+
+Cypress.Commands.add('validarURL', (url) =>{
+    cy.url().should('eq', url); // Verifica se a URL é a esperada
+});
