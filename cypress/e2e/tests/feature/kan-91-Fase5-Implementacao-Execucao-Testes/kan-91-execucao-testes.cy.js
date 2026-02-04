@@ -7,16 +7,15 @@ import * as dashboardCtfl from "../../../../pages/page-dashboard-estudos-ctfl";
 
 
 describe('Kan-91 - Implementação e Execução de Testes', () => {
-  beforeEach(() => {
-        cy.visit('/');
-  });
+      beforeEach(() => {
+            cy.visit('/');
+      });
 
-  it('KAN-91 Execução de Testes - Exemplo de Teste Simples', () => {
-        // Exemplo de teste simples para verificar o título da página inicial
-        cy.btnLogin();
-        cy.loginConta('grupo1-qazando@proton.me', 'grupo1qazando');
-        dashboardCtfl.funcAcessarPaginaCtfl();
+      it('KAN-91 Execução de Testes - Exemplo de Teste Simples', () => {
+            // Exemplo de teste simples para verificar o título da página inicial
+            cy.btnLogin();
+            cy.loginConta('grupo1-qazando@proton.me', 'grupo1qazando');
+            dashboardCtfl.funcAcessarPaginaCtfl();
 
-        
-  });
+      });
 });
