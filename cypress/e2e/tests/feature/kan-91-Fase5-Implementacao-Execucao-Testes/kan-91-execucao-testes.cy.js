@@ -1,6 +1,5 @@
 /// <reference types="cypress" />
 
-import * as dashboardCtfl from "../../../../pages/page-dashboard-estudos-ctfl";
 import * as fase5Fase6Ctfl from "../../../../pages/page-dashboard-fase5-fase6-ctfl";
 
 // DADOS DE LOGIN
