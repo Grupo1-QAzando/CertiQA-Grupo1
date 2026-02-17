@@ -15,3 +15,5 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './ctfl-at_dashboard_commands'
+import './ctfl-at_fase_commands'
