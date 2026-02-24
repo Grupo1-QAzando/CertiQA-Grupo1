@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import * as fase5Fase6Ctfl from "../../../../pages/page-dashboard-fase5-fase6-ctfl";
+import * as fase5Fase6Ctfl from "../../../../pages/page-dashboard-fase5-fase6-ctfl.js";
 
 // DADOS DE LOGIN
 // qa.admin@certiqa.com    QA@Test2024
