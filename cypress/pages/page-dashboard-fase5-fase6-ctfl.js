@@ -12,6 +12,11 @@ export default {
     cy.validarURL('https://www.certiqa-qazando.com/certificacoes/ctfl/fase/test-implementation');
   },
 
+  acessarFase6(){
+    cy.get('a[href="/certificacoes/ctfl/fase/test-management"]').click();
+    cy.validarURL('https://www.certiqa-qazando.com/certificacoes/ctfl/fase/test-management');
+  },
+
   iniciarQuiz(){
     cy.get('.text-primary-foreground').click();
     cy.get('.space-y-2 > .flex > :nth-child(1)').should('contain.text', 'Questão 1 de 10');
@@ -25,6 +30,11 @@ export default {
   sairQuiz(){
     cy.get('.pt-0 > :nth-child(2) > .flex > .border').click();
     cy.validarURL('https://www.certiqa-qazando.com/certificacoes/ctfl/fase/test-implementation');
+  },
+
+  sairQuizFase6(){
+    cy.get('.pt-0 > :nth-child(2) > .flex > .border').click();
+    cy.validarURL('https://www.certiqa-qazando.com/certificacoes/ctfl/fase/test-management');
   },
 
   botaoAnteriorQuiz(){
@@ -42,9 +52,19 @@ export default {
     cy.get('.flex-col > .text-2xl').should('have.text', 'Resultado do Quiz - Quiz: Implementação e Execução');
   },
 
+  checarMensagemTempoEsgotadoFase6(){
+    // cy.get('.flex-col > .text-2xl').should('have.text', 'Resultado do Quiz - Quiz: Implementação e Execução');
+    cy.get('.flex-col > .text-2xl').should('have.text', 'Resultado do Quiz - Quiz: Gerenciamento de Teste');
+    cy.get('.mt-2').should('contain.text', 'Você precisa de pelo menos 60% para passar.');
+  },
+
   checarNotaFinal(){
     cy.get('.flex-col > .text-2xl').should('have.text', 'Resultado do Quiz - Quiz: Implementação e Execução');
     cy.get('.mt-2').should('contain.text', 'Parabéns! Você passou!');
-  }
+  },
 
-}
+  checarNotaFinalFase6(){
+    cy.get('.flex-col > .text-2xl').should('have.text', 'Resultado do Quiz - Quiz: Gerenciamento de Teste');
+    cy.get('.mt-2').should('contain.text', 'Parabéns! Você passou!');
+  }
+};
