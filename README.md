@@ -16,7 +16,7 @@ O objetivo principal é aplicar **boas práticas de Quality Assurance (QA)**, **
 | **Rafael Dal Forno dos Santos** | https://github.com/rafaeldalforno        | https://www.linkedin.com/in/rafaeldalforno/ |
 | **Hugo Brailko**                   | (https://github.com/hugo-brailko)                    | www.linkedin.com/in/hugobrailko/|
 | **Katia Maturana**                   | https://github.com/katitamatu                    | https://www.linkedin.com/in/katia-maturana-03836b316/|
-| **Joao Victor**                   | https://github.com/                     | https://www.linkedin.com/in/ |
+| **Joao Victor Cruz de Souza**                   | https://github.com/JoaoVictorcds                    | https://www.linkedin.com/in/joaovictorcds |
 
 ---
 
